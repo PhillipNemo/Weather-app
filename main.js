@@ -62,9 +62,6 @@ var n = weekday[d.getDay()];
  //appending api file into html 
 function appendData(data) {
 
-document.body.style.backgroundImage= `https://www.google.com/search?aq=
-f&sourceid=chrome&ie=UTF-8&q=${data.name}+`
-
 main.innerHTML = `${data.weather[0].description}`;
 
 currentDate.innerHTML =`${n.toUpperCase()} ${d.getDate()}, ${d.getFullYear()}.`;
