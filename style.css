@@ -7,7 +7,7 @@
 body{
    background-image:url("https://i.ibb.co/z4NjCry/felix-mittermeier-L4-16dm-Z-1c-unsplash.jpg");
    background-repeat:no-repeat;
-   background-size:cover;
+   background-size:contain;
     Height:100vh;
   }
 h1{
